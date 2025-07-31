@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">G</span>
               </div>
-              <span className="text-white font-semibold text-lg">GestureSpeak</span>
+              <span className="text-white font-semibold text-lg">signX</span>
             </div>
             <p className="text-gray-400 mb-4">
               Empowering communication through technology, built with empathy and care for the non-verbal community.
@@ -50,7 +50,7 @@ export default function Footer() {
               <span>Trusted and built with pure heart</span>
             </div>
             <div className="text-gray-400 text-sm">
-              © 2025 GestureSpeak. All rights reserved.
+              © 2025 signX. All rights reserved.
             </div>
           </div>
         </div>

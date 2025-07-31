@@ -126,6 +126,13 @@ export default function CameraTab({ user }: CameraTabProps) {
             </div>
             
             <div className="relative bg-gray-900 aspect-video">
+              {/* Logo overlay, always visible */}
+              <img
+                src="/imags/make_a_logo_for_signX_word_showing_a_persion_talking_using_sign_language_and_put_the_logo_in_circule-removebg-preview.png"
+                alt="SignX Logo"
+                className="absolute top-4 left-4 w-16 h-16 z-10 bg-gray-900 rounded-full p-1 shadow-lg"
+                draggable="false"
+              />
               {isCameraOn ? (
                 <video
                   ref={videoRef}

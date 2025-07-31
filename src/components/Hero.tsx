@@ -7,34 +7,35 @@ interface HeroProps {
 
 export default function Hero({ onBuyPremium }: HeroProps) {
   return (
-    <section className="pt-20 pb-16 bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 overflow-hidden">
+    <section className="pt-20 pb-16 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Your Voice,{' '}
-              <span className="bg-gradient-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
-                Your Way
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+              Welcome to{' '}
+              <span className="bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
+                signX
               </span>
             </h1>
-            <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              We understand that communication is deeply personal. Our gentle technology translates your gestures into words, giving you the voice you deserve—with compassion, respect, and complete privacy.
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
+              We believe everyone deserves to be heard. Our platform transforms your hand gestures into spoken words, 
+              giving you a powerful new way to communicate with the world around you.
             </p>
             
             {/* Trust Indicators */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-6 mb-8">
-              <div className="flex items-center space-x-2 text-gray-300">
+              <div className="flex items-center space-x-2 text-gray-600">
                 <Heart className="w-5 h-5 text-red-400" />
                 <span className="text-sm">Built with care</span>
               </div>
-              <div className="flex items-center space-x-2 text-gray-300">
-                <Users className="w-5 h-5 text-blue-400" />
-                <span className="text-sm">Trusted by thousands</span>
-              </div>
-              <div className="flex items-center space-x-2 text-gray-300">
+              <div className="flex items-center space-x-2 text-gray-600">
                 <Shield className="w-5 h-5 text-green-400" />
-                <span className="text-sm">Completely secure</span>
+                <span className="text-sm">Privacy First</span>
+              </div>
+              <div className="flex items-center space-x-2 text-gray-600">
+                <Users className="w-5 h-5 text-blue-400" />
+                <span className="text-sm">Always Improving</span>
               </div>
             </div>
 

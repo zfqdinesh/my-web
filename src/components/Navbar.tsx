@@ -14,11 +14,16 @@ export default function Navbar({ auth, onLoginClick, onLogout }: NavbarProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">G</span>
+          <div className="flex items-center space-x-4">
+            <div className="w-16 h-16 rounded-xl flex items-center justify-center overflow-hidden bg-gray-900">
+              <img
+                src="/imags/make_a_logo_for_signX_word_showing_a_persion_talking_using_sign_language_and_put_the_logo_in_circule-removebg-preview.png"
+                alt="SignX Logo"
+                className="object-contain w-full h-full"
+                draggable="false"
+              />
             </div>
-            <span className="text-white font-semibold text-lg">GestureSpeak</span>
+            <span className="text-white font-semibold text-xl">signx</span>
           </div>
 
           {/* Account Section */}
